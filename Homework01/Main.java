@@ -16,16 +16,16 @@ public class Main {
     }
 
     // ArithmeticException
-    private static void divideByZero() {
-        int div = 10 / 0;
-        System.out.println(div);
-    }
+    // private static void divideByZero() {
+    //     int div = 10 / 0;
+    //     System.out.println(div);
+    // }
 
     // NullPointerException
-    private static void countNullValue() {
-        String text = null;
-        System.out.println(text.length());
-    }
+    // private static void countNullValue() {
+    //     String text = null;
+    //     System.out.println(text.length());
+    // }
 
     // ArrayIndexOutOfBoundsException
     private static void getInvalidArrayAccess() {
